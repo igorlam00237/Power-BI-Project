@@ -1,45 +1,58 @@
-# Data Jobs Dashboard w/ Power Bi
+# Dashboard Marché de l'Emploi Data — Power BI
 
-![Dashboard Page 1](/images//DashboardPage_1.png)
+![Dashboard Page 1](/images/DashboardPage_1.png)
 
-## Introduction
+## Contexte du projet
 
-This dashboard was created for **Job Seekers, Job Transitioners, and Job Swappers** to solve a common problem: information about the data job market is scattered and hard to grasp. Using a *real-word dataset of 2024 data science job postings* (including titles, salaries, and locations), this project provides a single, easy=to=use interface to explore market trends and compensation.
+Ce dashboard a été conçu pour répondre à un besoin concret : **l'information sur le marché de l'emploi data est fragmentée et difficile à exploiter**. À partir d'un jeu de données réel de **offres d'emploi Data Science 2024** (intitulés de postes, salaires, localisations géographiques), ce projet offre une interface analytique unifiée pour explorer les tendances du marché et les niveaux de rémunération.
 
-## Skills Showcased
+> Cible : chercheurs d'emploi, reconvertis et professionnels souhaitant se repositionner dans la data.
 
-- **🔩 Data Transformation (ETL) with Power Query:**
-Cleaned, shaped, and prepared the raw data for analysis by handling blanks, changing data types, and creating new columns.
+---
 
-- **📐 implicit Mesures**: Formulated measures to derive key insights and KPIs like `Median Yearly Salary`and `Job Count`.
+## Compétences techniques démontrées
 
-- **📊 Core Charts:** Utilized **Column, Bar,** and **Line Charts** to compare job counts and track trends over time.
+- **ETL & Transformation de données avec Power Query:**
+Nettoyage et structuration du jeu de données brut : gestion des valeurs manquantes, typage des colonnes, création de colonnes calculées.
 
-- **🌍 Geospatial Analysis:** Leveraged **Map Charts** to visualize the global distribution of jobs.
+- **Modélisation & Mesures DAX:**
+Élaboration de mesures pour calculer des KPIs clés : `Salaire Médian Annuel`, `Nombre d'Offres`, tendances temporelles.
 
-- **🔢 KPI Indicators & Tables:** Usud **Cards** to display key metrics and **Tables** to provide granular, sortable data.
+- **Visualisations avancées:**
+Utilisation de graphiques en colonnes, barres et courbes pour comparer les volumes d'offres et analyser les tendances dans le temps.
 
-- **Dashboard Design:** Designed an intuitive and visually appealing layout, exploring both common and uncommon chart types to best tell the data story.
+- **Analyse géospatiale:**
+Cartographie de la distribution mondiale des offres d'emploi via des graphiques de type Map.
 
-- **🖱️ Interactive Reporting:**
-    - **Slicers:** To dynamically filter the report by Job Title.
-    - **Buttins & Bookmarks:** To create a seamless navigation experience.
-    - **Drill-Through:** To navigate from a high-level summary to a contextual, detailed view.
+- **KPIs & Tableaux de données:**
+Affichage de métriques clés via des Cards et présentation de données granulaires et triables via des Tables.
 
-## Dashboard Owerview
+- **Design de dashboard:**
+Conception d'une interface claire, intuitive et visuellement soignée, combinant types de visualisations courants et moins conventionnels pour maximiser la lisibilité des insights.
 
-### Page 1: High-Level Market View
+- **Interactivité & navigation:**
+  - **Slicers** : filtrage dynamique par intitulé de poste
+  - **Boutons** : navigation fluide entre les pages du rapport
+  - **Drill-Through** : passage contextuel d'une vue synthétique vers une analyse détaillée par poste
+
+---
+
+## Présentation du dashboard
+
+### Page 1 — Vue d'ensemble du marché
 
 ![Dashboard page 1](/images/DashboardPage_1.png)
 
-This is your mission control for the data job market. It showcases key KPIs like total job count, median salaries, and top jobs titles to give you a quick understanding of what's happening in the job market at a glance.
+Vue macro du marché de l'emploi data. Cette page centralise les KPIs essentiels : nombre total d'offres, salaires médians, top des intitulés de postes. Elle permet d'obtenir une lecture rapide et globale de l'état du marché.
 
-### Page 2: Job Title Drill Through
+### Page 2 — Analyse détaillée par intitulé de poste (Drill-Through)
 
 ![Dashboard page 2](/images/DashboardPage_2.png)
 
-This is the deep-dive page. From the main dashboard, you can drill through to this view to get specific details for a single job title, including salary ranges, work-from-home stats, top hiring platforms, and a global map of job locations.
+Page de plongée analytique. Accessible par drill-through depuis la vue principale, elle détaille pour un intitulé de poste donné : les fourchettes salariales, la proportion de postes en télétravail, les principales plateformes de recrutement, et la distribution géographique mondiale des offres.
+
+---
 
 ## Conclusion
 
-This dash showcases how Power BI can transform raw job posting data into a powerful tool for career analysis. It allows users to slice, filter, and drill through data to make informed decisions about their career paths.
+Ce projet illustre la capacité à transformer des données brutes en outil d'aide à la décision opérationnel avec Power BI. Il met en oeuvre l'ensemble de la chaîne analytique : ingestion et nettoyage des données, modélisation, création de mesures DAX, et restitution via un dashboard interactif, filtrable et navigable.
